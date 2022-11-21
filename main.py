@@ -17,7 +17,6 @@ def off():
 if _name=='main_':
 	app.run(debug=True)
 
-
     
 
 
