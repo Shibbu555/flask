@@ -1,20 +1,21 @@
-from flask import Flask, jsonify,request
-app=Flask(__name__)
+from flask import Flask,jsonify,request
 
+app = Flask(_name_)
 
-@ app.route('/')
+@app.route('/')
 def home():
     return jsonify({'message':'welcome'})
-@ app.route('/on')
+
+@app.route('/on')
 def on():
     return jsonify({'state':'1'})
 
-@ app.route('/off')
+@app.route('/off')
 def off():
-    return jsonify({'state':'0'})    
+    return jsonify({'state':'0'})
 
-if__name__ =='__main__':
-    app.run(debug=True)
+if _name=='main_':
+	app.run(debug=True)
 
 
     
