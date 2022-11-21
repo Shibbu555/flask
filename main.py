@@ -1,19 +1,7 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify,resquest
 app=Flask(__name__)
 
-books_db = [
-    {
-        'name':'secret',
-        'price':'456'
-    },
-    {
-         
-        'name':'Deep work',
-        'price':'345'
-    
-    }
-]
-# retrieve all the books 
+
 @ app.route('/')
 def home():
     return jsonify({'message':'welcome'})
