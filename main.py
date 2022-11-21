@@ -14,8 +14,9 @@ def on():
 def off():
     return jsonify({'state':'0'})
 
-if _name=='main_':
+if __name__=='__main__':
 	app.run(debug=True)
+	
 
     
 
