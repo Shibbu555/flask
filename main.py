@@ -13,7 +13,7 @@ def on():
 def off():
     return jsonify({'state':'0'})    
 
-if __name__ =='__main__':
+if__name__ =='__main__':
     app.run(debug=True)
 
 
