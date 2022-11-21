@@ -25,8 +25,8 @@ def on():
 def off():
     return jsonify({'state':'0'})    
 
-
-# retrieve one book  
+if__name__=='__main__':
+    app.run(debug=True)
 
 
     
